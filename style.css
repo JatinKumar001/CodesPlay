@@ -887,7 +887,7 @@ body {
 }
 
 /* Media Query */
-@media (max-width: 1510px){
+@media (max-width: 1507px){
     .navbar{
         width: 180px;
     }
