@@ -886,6 +886,33 @@ body {
     display: none;
 }
 
+.alert {
+    display: none;
+    padding: 20px;
+    background-color: #7bc2e0; /* Red */
+    color: white;
+    margin-bottom: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    position: absolute;
+    top: 2px;
+}
+
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.closebtn:hover {
+    color: black;
+}
+
 /* Media Query */
 @media (max-width: 1507px){
     .navbar{
@@ -1208,5 +1235,12 @@ body {
     .p2,
     .p3{
         font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 500px){
+    .alert{
+        display: block;
+        z-index: 2;
     }
 }
