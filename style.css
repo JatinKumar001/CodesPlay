@@ -913,6 +913,10 @@ body {
     color: black;
 }
 
+.dontshow{
+    border: 1px solid white;
+}
+
 /* Media Query */
 @media (max-width: 1507px){
     .navbar{
